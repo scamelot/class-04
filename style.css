@@ -1,0 +1,64 @@
+body {
+    background: rgb(120, 206, 233);
+}
+h1,h2,p, li > span {
+    color: white;
+}
+h2, ul {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+p {
+    font-size: 22px;
+}
+h2 {
+    text-align: left;
+    font-size: 32px;
+}
+span {
+    font-weight: bold;
+}
+a {
+    color: rgb(0, 203, 157);
+    font-weight: bold;
+}
+a:hover {
+    color: orange;
+}
+ul {
+    text-align: center;
+    font-size: 24px;
+}
+section {
+    display: block;
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px 75px;
+    border: 5px solid rgb(0, 203, 74);
+    overflow: auto;
+}
+h2 {
+    position: relative;
+    margin: 0 auto;
+}
+img {
+    float: right;
+    height: 350px;
+    width: 250px;
+}
+li {
+    display: inline-block;
+}
+div {
+    display: inline-block;
+    margin: 0 .25em;
+    width: 3px;
+    height: .6em;
+    background-color: darkgray;
+}
